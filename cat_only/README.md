@@ -11,15 +11,17 @@ O projeto está subdividido em determinados pontos:
 
 - injectors: são as dependências necessárias para os controladores
 
-<h2>pages:</h2>
-    - _root: é a página raiz
+<h2>Pages:</h2>
+<pre>
+    _root: é a página raiz
     
-    - first_loading: é onde a primeira lista de gatos é carregada
+    first_loading: é onde a primeira lista de gatos é carregada
 
-    - home: aqui os gatos são exibidos
+    home: aqui os gatos são exibidos
 
-    -splash: aqui é onde há a primeira interação com o usuário. Onde ele irá para a first_loading
+    splash: aqui é onde há a primeira interação com o usuário. Onde ele irá para a first_loading
+</pre>
 
-<h2>injectors:</h2>
+<h2>Injectors:</h2>
     Perceba que em algumas pages há uma pasta chamada inject. Ela é para que o controller tenha suas injeções de dependências feitas. Por sua vez, ela retorna esse controller que é usado em sua determinada page.
 </p>

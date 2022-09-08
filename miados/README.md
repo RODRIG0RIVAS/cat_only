@@ -1,26 +1,28 @@
 <h1 align="center">CatOnly Design System</h1>
 
 <p align="left">
-M
-i
-a
-d - design
-o
-s - system
+  <ul>
+    <li>M</li>
+    <li>i</li>
+    <li>a</li>
+    <li>d - design</li>
+    <li>o</li>
+    <li>s - system</li>
+  </ul>
 </p>
 
 <p>Esse nome foi escolhido porque ver tantos gatos me lembram os miados.</p>
 
-## Recursos
-
-<h2>Esse pacote tem por finalidade entregar:</h2>
+## Esse pacote tem por finalidade entregar:
 
 <p>
-- cores
-- fontes
-- controladores do SystemUiOverlay e do Theme
-- Theme
-- âncoragem de widgets vindos de outros packages
+  <ul>
+    <li>cores</li>
+    <li>fontes</li>
+    <li>controladores do SystemUiOverlay e do Theme</li>
+    <li>Theme</li>
+    <li>âncoragem de widgets vindos de outros packages</li>
+  </ul>
 </p>
 
 ## Primeiros passos
@@ -40,7 +42,7 @@ dependencies:
 <p>O que for adicionado no construtor do Theme, será recuperado por meio do Theme.</p>
 
 ```dart
-final standartBackgroundColor = Theme.of(context).backgroundColor;
+final standardBackgroundColor = Theme.of(context).backgroundColor;
 ```
 
 <p>Será adicionado desta forma na aplicação. Até então não há darkTheme, será adicionado posteriormente.</p>

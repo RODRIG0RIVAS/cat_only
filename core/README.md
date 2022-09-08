@@ -1,13 +1,13 @@
 <h1 align="center">CatOnly Core</h1>
 
-## Recursos
-
-<h2>Esse pacote tem por finalidade entregar:</h2>
+## Esse pacote tem por finalidade entregar:
 
 <p>
-- superclasse de falha (Failure)
-- handler para erros http
-- rotas
+  <ul>
+    <li>superclasse de falha (Failure)</li>
+    <li>handler para erros http</li>
+    <li>rotas</li>
+  </ul>
 </p>
 
 ## Primeiros passos
@@ -24,12 +24,32 @@ dependencies:
 
 ## Uso
 
-<p>Quando fizer alguma requisição http, use-o para personalizar os erros de forma padronizada</p>
+### Failure
+
+<p>Superclasse de falha. Será usada quando alguma exceção personalizada for criada.</p>
+
+```dart
+class CustomException extends Failure{
+  CustomException(super.serverMessage, super.userMessage, super.code);
+}
+```
+
+### HandleHttpErrorCode
+
+<p>Quando fizer alguma requisição http, use-o para personalizar os erros de forma padronizada.</p>
 
 ```dart
 handleHttpErrorCode(response: response).fold((failure) {
   //throw some exception
-}, (noFailure) {
+}, (success) {
   //work with your response.body with 200 http code
 });
+```
+
+### Routes
+
+<p>Basta chamar de forma estática.</p>
+
+```dart
+RouteNames.someRoute;
 ```

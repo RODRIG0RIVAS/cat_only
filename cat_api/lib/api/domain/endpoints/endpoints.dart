@@ -1,6 +1,4 @@
 class Endpoints {
-  Endpoints._();
-
   static String base = 'https://api.thecatapi.com/';
 
   static String fromPaginationAndLimit(int page, int limit) {

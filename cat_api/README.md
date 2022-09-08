@@ -1,5 +1,9 @@
 <h1 align="center">CatOnly API</h1>
 
+<div align="center">
+    <img src="https://img.shields.io/badge/coverage-100%25-brightgreen"/>
+</div>
+
 <p>Este pacote consumirá a The cat API</p>
 
 <p>
@@ -12,22 +16,15 @@ Você pode acessá-la em:
     </p>
 </p>
 
-## Recursos
-
-<h2>Esse pacote tem por finalidade entregar:</h2>
+## Esse pacote tem por finalidade entregar:
 
 <p>
 - Lista de gatos
 </p>
 
-<h2>O que cada camada contém, neste projeto</h2>
-<p>
-domain - endpoints, entidades, exceções, interface do repositório e casos de uso
+<h2>Clean Dart</h2>
 
-external - implementação do datasource
-
-infra - adaptadores, interface do datasource e implementação do repositório
-</p>
+<p>Procurei seguir a proposta do <a href="https://github.com/Flutterando/Clean-Dart">Clean Dart</a> para a criação deste módulo</p>
 
 ## Primeiros passos
 

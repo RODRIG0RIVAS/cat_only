@@ -1,0 +1,43 @@
+name: cat_only
+description: CatOnly App with no StateManagement and DI package
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dependency:
+    path: ../dependency
+  cat_api:
+    path: ../cat_api
+  core:
+    path: ../core
+  miados:
+    path: ../miados
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  integration_test:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  mockito: ^5.3.0
+  build_runner: ^2.2.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/lottie/cat_loading.json
+    - assets/lottie/cat_window.json
+    - assets/lottie/gueito_a_dormire.json
+    - assets/lottie/cat_paws.json

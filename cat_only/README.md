@@ -13,7 +13,7 @@ O projeto está subdividido em determinados pontos:
 
 <h2>Pages:</h2>
 <pre>
-    _root: é a página raiz
+    root: é a página raiz
     
     first_loading: é onde a primeira lista de gatos é carregada
 

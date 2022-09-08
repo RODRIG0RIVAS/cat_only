@@ -35,7 +35,9 @@
     <pre>xApiKey</pre>
     e pronto.
     </p><br/>
-    <p>Lembrando que esse é o procedimento adotado. Caso queira fazer de alguma outra forma, sinte-se livre para isto.</p>
+    <p>Lembrando que esse é o procedimento adotado. Caso queira fazer de alguma outra forma, sinte-se livre para isto
+    </p>
+    <p>Não encontrei uma forma de requisitar ao servidor uma key para que possa ser usada para uma determinada solicitação.</p>
 </p>
 
 <p>Classe que deverá ser criada concordante as instruções acima:</p>
